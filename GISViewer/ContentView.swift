@@ -12,6 +12,9 @@ struct ContentView: View {
     @State private var zoomLevel: Int = 0
     @State private var tileX: Int = 0
     @State private var tileY: Int = 0
+    private var tileLength: Int {
+        Int(pow(2.0, Double(zoomLevel)))
+    }
     
     // 東京駅の座標
     let initialCoordinate = CLLocationCoordinate2D(latitude: 35.681236, longitude: 139.767125)
@@ -25,9 +28,12 @@ struct ContentView: View {
                 zoomLevel: zoomLevel
             )
             
-            Text("Zoom Level: \(zoomLevel), Tile X: \(tileX), Tile Y: \(tileY)")
+            Text("Zoom Level: \(zoomLevel),  (X: \(tileX), Y: \(tileY))")
                 .font(.headline)
                 .padding(.top, 10)
+            
+            Text("Tile Count \(tileLength) x \(tileLength)")
+                .font(.headline)
             
             HStack {
                 Button(action: {
