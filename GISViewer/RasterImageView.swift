@@ -48,14 +48,9 @@ struct RasterImageView: View {
     
     private func calculateTileCoordinates(lat: Double, lon: Double, zoomLevel: Int) -> (x: Int, y: Int) {
         // 2 ^ z を計算
-        // ここでは1次元方向のタイル数を計算している
         let n = pow(2.0, Double(zoomLevel))
 
         // タイルのx座標を計算
-        // 経度 lon の範囲は -180度 から 180度
-        // lon + 180.0によって、経度を [0, 360] の範囲にシフト
-        // (lon + 180.0) / 360.0
-        // これによって正規化された値を得る。この値は [0, 1] の範囲になる
         let x = Int(n * ((lon + 180.0) / 360.0))
         
         // タイルのy座標を計算
@@ -67,7 +62,7 @@ struct RasterImageView: View {
         return (x, y)
     }
     
-    @MainActor // メインスレッドで実行される
+    @MainActor
     func updateTileCoordinates(x: Int, y: Int) {
         tileX = x
         tileY = y

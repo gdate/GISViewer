@@ -18,7 +18,6 @@ struct ContentView: View {
     
     var body: some View {
         VStack {
-            // タイルビュー
             RasterImageView(
                 tileX: $tileX,
                 tileY: $tileY,
@@ -26,12 +25,10 @@ struct ContentView: View {
                 zoomLevel: zoomLevel
             )
             
-            // 現在のタイルの座標を表示
-            Text("Tile X: \(tileX), Tile Y: \(tileY)")
+            Text("Zoom Level: \(zoomLevel), Tile X: \(tileX), Tile Y: \(tileY)")
                 .font(.headline)
                 .padding(.top, 10)
             
-            // ズームボタン
             HStack {
                 Button(action: {
                     zoomOut()
@@ -48,15 +45,10 @@ struct ContentView: View {
                 }
             }
             .padding()
-            
-            // 現在のズームレベルを表示
-            Text("Zoom Level: \(zoomLevel)")
-                            .font(.headline)
         }
     }
     
     private func zoomIn() {
-        // 最大ズームレベルを設定 (例: 18)
         guard zoomLevel < 18 else { return }
         zoomLevel += 1
     }
