@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9F2455302C7ADDB80045931B /* GISViewerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F24552F2C7ADDB80045931B /* GISViewerApp.swift */; };
+		9F2455322C7ADDB80045931B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2455312C7ADDB80045931B /* ContentView.swift */; };
+		9F2455342C7ADDB90045931B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F2455332C7ADDB90045931B /* Assets.xcassets */; };
+		9F2455372C7ADDB90045931B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F2455362C7ADDB90045931B /* Preview Assets.xcassets */; };
+		9F2455412C7ADDB90045931B /* GISViewerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2455402C7ADDB90045931B /* GISViewerTests.swift */; };
+		9F24554B2C7ADDB90045931B /* GISViewerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F24554A2C7ADDB90045931B /* GISViewerUITests.swift */; };
+		9F24554D2C7ADDB90045931B /* GISViewerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F24554C2C7ADDB90045931B /* GISViewerUITestsLaunchTests.swift */; };
+		9F24555A2C7ADF2F0045931B /* RasterImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2455592C7ADF2F0045931B /* RasterImageView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9F24553D2C7ADDB90045931B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F2455242C7ADDB80045931B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F24552B2C7ADDB80045931B;
+			remoteInfo = GISViewer;
+		};
+		9F2455472C7ADDB90045931B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F2455242C7ADDB80045931B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F24552B2C7ADDB80045931B;
+			remoteInfo = GISViewer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9F24552C2C7ADDB80045931B /* GISViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GISViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F24552F2C7ADDB80045931B /* GISViewerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GISViewerApp.swift; sourceTree = "<group>"; };
+		9F2455312C7ADDB80045931B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9F2455332C7ADDB90045931B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9F2455362C7ADDB90045931B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9F24553C2C7ADDB90045931B /* GISViewerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GISViewerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F2455402C7ADDB90045931B /* GISViewerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GISViewerTests.swift; sourceTree = "<group>"; };
+		9F2455462C7ADDB90045931B /* GISViewerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GISViewerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F24554A2C7ADDB90045931B /* GISViewerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GISViewerUITests.swift; sourceTree = "<group>"; };
+		9F24554C2C7ADDB90045931B /* GISViewerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GISViewerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9F2455592C7ADF2F0045931B /* RasterImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RasterImageView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9F2455292C7ADDB80045931B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F2455392C7ADDB90045931B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F2455432C7ADDB90045931B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9F2455232C7ADDB80045931B = {
+			isa = PBXGroup;
+			children = (
+				9F24552E2C7ADDB80045931B /* GISViewer */,
+				9F24553F2C7ADDB90045931B /* GISViewerTests */,
+				9F2455492C7ADDB90045931B /* GISViewerUITests */,
+				9F24552D2C7ADDB80045931B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9F24552D2C7ADDB80045931B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F24552C2C7ADDB80045931B /* GISViewer.app */,
+				9F24553C2C7ADDB90045931B /* GISViewerTests.xctest */,
+				9F2455462C7ADDB90045931B /* GISViewerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9F24552E2C7ADDB80045931B /* GISViewer */ = {
+			isa = PBXGroup;
+			children = (
+				9F24552F2C7ADDB80045931B /* GISViewerApp.swift */,
+				9F2455312C7ADDB80045931B /* ContentView.swift */,
+				9F2455592C7ADF2F0045931B /* RasterImageView.swift */,
+				9F2455332C7ADDB90045931B /* Assets.xcassets */,
+				9F2455352C7ADDB90045931B /* Preview Content */,
+			);
+			path = GISViewer;
+			sourceTree = "<group>";
+		};
+		9F2455352C7ADDB90045931B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9F2455362C7ADDB90045931B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9F24553F2C7ADDB90045931B /* GISViewerTests */ = {
+			isa = PBXGroup;
+			children = (
+				9F2455402C7ADDB90045931B /* GISViewerTests.swift */,
+			);
+			path = GISViewerTests;
+			sourceTree = "<group>";
+		};
+		9F2455492C7ADDB90045931B /* GISViewerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9F24554A2C7ADDB90045931B /* GISViewerUITests.swift */,
+				9F24554C2C7ADDB90045931B /* GISViewerUITestsLaunchTests.swift */,
+			);
+			path = GISViewerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9F24552B2C7ADDB80045931B /* GISViewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F2455502C7ADDB90045931B /* Build configuration list for PBXNativeTarget "GISViewer" */;
+			buildPhases = (
+				9F2455282C7ADDB80045931B /* Sources */,
+				9F2455292C7ADDB80045931B /* Frameworks */,
+				9F24552A2C7ADDB80045931B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GISViewer;
+			productName = GISViewer;
+			productReference = 9F24552C2C7ADDB80045931B /* GISViewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9F24553B2C7ADDB90045931B /* GISViewerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F2455532C7ADDB90045931B /* Build configuration list for PBXNativeTarget "GISViewerTests" */;
+			buildPhases = (
+				9F2455382C7ADDB90045931B /* Sources */,
+				9F2455392C7ADDB90045931B /* Frameworks */,
+				9F24553A2C7ADDB90045931B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F24553E2C7ADDB90045931B /* PBXTargetDependency */,
+			);
+			name = GISViewerTests;
+			productName = GISViewerTests;
+			productReference = 9F24553C2C7ADDB90045931B /* GISViewerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9F2455452C7ADDB90045931B /* GISViewerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F2455562C7ADDB90045931B /* Build configuration list for PBXNativeTarget "GISViewerUITests" */;
+			buildPhases = (
+				9F2455422C7ADDB90045931B /* Sources */,
+				9F2455432C7ADDB90045931B /* Frameworks */,
+				9F2455442C7ADDB90045931B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F2455482C7ADDB90045931B /* PBXTargetDependency */,
+			);
+			name = GISViewerUITests;
+			productName = GISViewerUITests;
+			productReference = 9F2455462C7ADDB90045931B /* GISViewerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9F2455242C7ADDB80045931B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					9F24552B2C7ADDB80045931B = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					9F24553B2C7ADDB90045931B = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 9F24552B2C7ADDB80045931B;
+					};
+					9F2455452C7ADDB90045931B = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 9F24552B2C7ADDB80045931B;
+					};
+				};
+			};
+			buildConfigurationList = 9F2455272C7ADDB80045931B /* Build configuration list for PBXProject "GISViewer" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9F2455232C7ADDB80045931B;
+			productRefGroup = 9F24552D2C7ADDB80045931B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9F24552B2C7ADDB80045931B /* GISViewer */,
+				9F24553B2C7ADDB90045931B /* GISViewerTests */,
+				9F2455452C7ADDB90045931B /* GISViewerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9F24552A2C7ADDB80045931B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F2455372C7ADDB90045931B /* Preview Assets.xcassets in Resources */,
+				9F2455342C7ADDB90045931B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F24553A2C7ADDB90045931B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F2455442C7ADDB90045931B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9F2455282C7ADDB80045931B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F2455322C7ADDB80045931B /* ContentView.swift in Sources */,
+				9F2455302C7ADDB80045931B /* GISViewerApp.swift in Sources */,
+				9F24555A2C7ADF2F0045931B /* RasterImageView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F2455382C7ADDB90045931B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F2455412C7ADDB90045931B /* GISViewerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F2455422C7ADDB90045931B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F24554D2C7ADDB90045931B /* GISViewerUITestsLaunchTests.swift in Sources */,
+				9F24554B2C7ADDB90045931B /* GISViewerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9F24553E2C7ADDB90045931B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F24552B2C7ADDB80045931B /* GISViewer */;
+			targetProxy = 9F24553D2C7ADDB90045931B /* PBXContainerItemProxy */;
+		};
+		9F2455482C7ADDB90045931B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F24552B2C7ADDB80045931B /* GISViewer */;
+			targetProxy = 9F2455472C7ADDB90045931B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9F24554E2C7ADDB90045931B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9F24554F2C7ADDB90045931B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9F2455512C7ADDB90045931B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GISViewer/Preview Content\"";
+				DEVELOPMENT_TEAM = YBH7VNKFTJ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ted.GISViewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9F2455522C7ADDB90045931B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GISViewer/Preview Content\"";
+				DEVELOPMENT_TEAM = YBH7VNKFTJ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ted.GISViewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9F2455542C7ADDB90045931B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YBH7VNKFTJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ted.GISViewerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GISViewer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GISViewer";
+			};
+			name = Debug;
+		};
+		9F2455552C7ADDB90045931B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YBH7VNKFTJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ted.GISViewerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GISViewer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GISViewer";
+			};
+			name = Release;
+		};
+		9F2455572C7ADDB90045931B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YBH7VNKFTJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ted.GISViewerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GISViewer;
+			};
+			name = Debug;
+		};
+		9F2455582C7ADDB90045931B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YBH7VNKFTJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ted.GISViewerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GISViewer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9F2455272C7ADDB80045931B /* Build configuration list for PBXProject "GISViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F24554E2C7ADDB90045931B /* Debug */,
+				9F24554F2C7ADDB90045931B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F2455502C7ADDB90045931B /* Build configuration list for PBXNativeTarget "GISViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F2455512C7ADDB90045931B /* Debug */,
+				9F2455522C7ADDB90045931B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F2455532C7ADDB90045931B /* Build configuration list for PBXNativeTarget "GISViewerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F2455542C7ADDB90045931B /* Debug */,
+				9F2455552C7ADDB90045931B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F2455562C7ADDB90045931B /* Build configuration list for PBXNativeTarget "GISViewerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F2455572C7ADDB90045931B /* Debug */,
+				9F2455582C7ADDB90045931B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9F2455242C7ADDB80045931B /* Project object */;
+}
